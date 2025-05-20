@@ -2,4 +2,50 @@
 body {
   font-family: Arial, sans-serif;
 }
+h1 {
+  color: #101510;
+}
 
+/* Grundlayout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 60px 20px;
+}
+
+/* Navbar-Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #01D758;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  gap: 20px; 
+}
+
+/* Logo */
+.logo img {
+  height: 55px;
+}
+
+
+/* Navigationslinks */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
