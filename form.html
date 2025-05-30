@@ -1,49 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cyberskills Waitlist</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
-    
+<body class="waitlist-page">
 
-<form action="https://formsubmit.co/founder@cyberskills.li" method="POST">
-  <h2>Join the Waitlist</h2>
+  <div class="form-container">
+    <div class="form-header">
+      <h2>Join the Waitlist</h2>
+      <img src="assets/Cyberskills_Logo.png" alt="Cyberskills Logo" class="logo-icon" />
+    </div>
 
-  <input 
-    type="text" 
-    name="name" 
-    placeholder="Your name" 
-    required 
-    style="padding: 10px; width: 100%; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc;">
+    <form action="https://formsubmit.co/founder@cyberskills.li" method="POST">
 
-  <input 
-    type="email" 
-    name="email" 
-    placeholder="Your email" 
-    required 
-    style="padding: 10px; width: 100%; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc;">
+      <input type="text" name="surename" placeholder="Your surename" required />
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <input type="text" name="Motivation" placeholder="What motivated you to join the waitlist - optional" />
 
-  <!-- Auto-response email -->
-  <input type="hidden" name="_autoresponse" value="🎉 You're officially on the Cyberskills waitlist! We'll notify you first when early access opens. Stay tuned. 🚀">
+      <input type="hidden" name="_autoresponse" value="🎉 You're officially on the Cyberskills waitlist! We'll notify you first when early access opens. Stay tuned. 🚀">
+      <input type="hidden" name="_next" value="https://cyberskills.li/thank-you">
+      <input type="text" name="_honey" class="honeypot">
 
-  <!-- Optional redirect -->
-  <input type="hidden" name="_next" value="https://cyberskills.li/thank-you">
-
-  <!-- Optional: Honeypot spam protection -->
-  <input type="text" name="_honey" style="display:none">
-
-  <!-- Optional: Disable CAPTCHA (if needed) -->
-  <input type="hidden" name="_captcha" value="false">
-
-  <button 
-    type="submit"
-    style="background-color: black; color: white; padding: 12px 20px; border: none; border-radius: 8px; cursor: pointer;">
-    Get Early Access
-  </button>
-</form>
+      <button type="submit">submit</button>
+    </form>
+  </div>
 
 </body>
 </html>
-
