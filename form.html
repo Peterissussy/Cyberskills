@@ -2,32 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cyberskills Waitlist</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body class="waitlist-page">
-
   <div class="form-container">
     <div class="form-header">
       <h2>Join the Waitlist</h2>
       <img src="assets/Cyberskills_Logo.png" alt="Cyberskills Logo" class="logo-icon" />
     </div>
 
-    <form action="action=https://hook.eu2.make.com/1fjo8wjacvk4zbx2qkxki87bw0uyy6xc" method="POST">
+<form action="https://hook.eu2.make.com/1fjo8wjacvk4zbx2qkxki87bw0uyy6xc" method="POST">
+  <input type="text"   name="surname"    placeholder="Your surname" required />
+  <input type="text"   name="name"       placeholder="Your name"    required />
+  <input type="email"  name="email"      placeholder="Your email"   required />
+  <input type="text"   name="Motivation" placeholder="Motivation (optional)" />
+  <button type="submit">Submit</button>
+</form>
 
-      <input type="text" name="surname" placeholder="Your surname" required />
-      <input type="text" name="name" placeholder="Your name" required />
-      <input type="email" name="email" placeholder="Your email" required />
-      <input type="text" name="Motivation" placeholder="What motivated you to join the waitlist - optional" />
-
-      <input type="hidden" name="_autoresponse" value="🎉 You're officially on the Cyberskills waitlist! We'll notify you first when early access opens. Stay tuned. 🚀">
-      <input type="hidden" name="_next" value="https://cyberskills.li/thank-you">
-      <input type="text" name="_honey" class="honeypot">
-
-      <button type="submit">submit</button>
-    </form>
   </div>
-
 </body>
 </html>
