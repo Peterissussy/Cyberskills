@@ -9,18 +9,16 @@
     }
   </script>
   <title data-rh="true"></title>
-  <meta charset="utf-8"/>
+  <meta charSet="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-  <!-- FIXED -->
   <style id="expo-reset">
-    #root,body,html{height:100%}
-    body{overflow:hidden}
-    #root{display:flex}
+    #root, body, html { height: 100% }
+    body { overflow: hidden }
+    #root { display: flex }
   </style>
 
-  <!-- DARK MODE -->
 <style id="darkmode-fix">
   @media (prefers-color-scheme: dark) {
     html, body, #root {
@@ -45,10 +43,41 @@
     input::placeholder, textarea::placeholder {
       color: rgba(255,255,255,0.5) !important;
     }
+
+    .dark div {
+    background-color: transparent;
+    }
+
+    /* typische weiße Flächen überschreiben */
+    .dark .r-14lw9ot {
+    background-color: #121212 !important;
+    border-top: 1px solid #333;
+    }
+
+    /* Bottom Navigation / Tabs */
+    .dark nav,
+    .dark .tab-bar,
+    .dark .bottom-bar,
+    .dark .footer {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+    }
+
+    /* Buttons / Tab Items */
+    .dark button,
+    .dark .tab,
+    .dark a {
+    color: white !important;
+    }
+
+    /* aktive Tabs */
+    .dark .active {
+      color: #00bcd4 !important;
+    }
+    
   }
 </style>
 
-  <!-- ORIGINAL STYLES (UNVERÄNDERT) -->
   <style id="react-native-stylesheet">
     /* DEIN GANZER RESTLICHER CODE BLEIBT HIER 1:1 */
 body{margin:0;}
