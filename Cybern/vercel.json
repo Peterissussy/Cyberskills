@@ -1,7 +1,7 @@
 {
   "framework": null,
   "outputDirectory": ".",
-  "cleanUrls": true,
+  "cleanUrls": false,
   "trailingSlash": false,
   "rewrites": [
     { "source": "/robot/assets/(.*)", "destination": "/robot/dist/assets/$1" },
