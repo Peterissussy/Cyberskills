@@ -2,7 +2,10 @@
   "name": "cybern",
   "private": true,
   "version": "1.0.0",
+  "workspaces": [
+    "robot"
+  ],
   "scripts": {
-    "build": "cd robot && npm install && npm run build"
+    "build": "npm --prefix robot run build"
   }
 }
