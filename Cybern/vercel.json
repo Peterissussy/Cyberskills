@@ -1,4 +1,9 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/robot/assets/(.*)", "destination": "/robot/dist/assets/$1" },
+    { "source": "/robot", "destination": "/robot/dist/index.html" },
+    { "source": "/robot/(.*)", "destination": "/robot/dist/index.html" }
+  ]
 }
