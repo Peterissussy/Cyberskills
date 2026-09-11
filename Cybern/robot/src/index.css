@@ -117,24 +117,6 @@ html, body {
   justify-content: flex-end;
 }
 
-.back-link {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  color: var(--text-muted);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 6px 10px;
-  border-radius: 8px;
-  transition: background-color 0.15s ease, color 0.15s ease;
-}
-
-.back-link:hover {
-  background-color: var(--bg-secondary);
-  color: var(--text-primary);
-}
-
 .brand {
   display: flex;
   align-items: center;
