@@ -4,6 +4,8 @@
   "cleanUrls": false,
   "trailingSlash": false,
   "rewrites": [
+    { "source": "/main", "destination": "/main/index.html" },
+    { "source": "/main/", "destination": "/main/index.html" },
     { "source": "/robot/assets/(.*)", "destination": "/robot/dist/assets/$1" },
     { "source": "/robot/favicon.ico", "destination": "/robot/dist/assets/favicon-BD9GvgLH.ico" },
     { "source": "/robot", "destination": "/robot/dist/index.html" },

@@ -1,0 +1,12 @@
+{
+  "name": "cyberskills",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "robot"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace robot",
+    "dev:robot": "npm run dev --workspace robot"
+  }
+}
