@@ -9,7 +9,6 @@ import {
   Sparkles,
   ArrowRight,
   Eye,
-  ShieldAlert,
 } from 'lucide-react';
 import { GamePhase, RobotStats, RoundLog, MatchScores } from '../types';
 import {
